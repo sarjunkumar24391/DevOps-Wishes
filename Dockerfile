@@ -1,4 +1,4 @@
 FROM scratch
 COPY hello /
-RUN echo 'TEST'
+CMD echo 'TEST'
 CMD ["/hello.asm"]
