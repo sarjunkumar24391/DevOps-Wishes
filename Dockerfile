@@ -1,4 +1,4 @@
 FROM ubuntu:latest
-COPY hello /
+ADD hello /
 CMD echo 'TEST'
 CMD ["/hello"]
