@@ -2,4 +2,4 @@ FROM ubuntu:latest
 COPY Test /
 CMD echo 'TEST'
 CMD ["/bin/bash"]
-CMD ["CAT Test"]
+CMD ["cat Test"]
