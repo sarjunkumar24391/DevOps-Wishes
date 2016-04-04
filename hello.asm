@@ -58,24 +58,6 @@ _start:
 	message:
 		db 0x0A
 		db 'Hello Boss.', 0x0A
-		db 'Thought of different ideas to convey "Happy and Safe Journey".', 0x0A
-		db 0x0A
-		db 'But asusual.... no plans came or ideas striked my empty mind', 0x0A
-		db ' So suddenly thought of something innovative through which i can ', 0x0A
-		db ' convey my wishes as well as the knowledge gained because of your help and', 0x0A
-		db ' support', 0x0A
-		db '    "HAPPY AND SAFE JOURNEY"', 0x0A
-		db ' Come back with good and happy memories and share with us', 0x0A
-		db ' and we are wishing you happy holidays during the weekends in Amsterdam :0)', 0x0A
-		db 0x0A
-		db 'With Best Regards,', 0x0A
-		db 'Arjun', 0x0A
-		db 'Siddharth', 0x0A
-		db 'Christy', 0x0A
-		db 0x0A
-		db '"ENJOY ENJOY ENJOY"', 0x0A
-		db '', 0x0A
-		db 0x0A
 	length: equ	$-message            ; message length calculation
 
 ; File size calculation
