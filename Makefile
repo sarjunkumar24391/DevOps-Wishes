@@ -1,11 +1,11 @@
-hello: hello.asm
+Test: hello.asm
 	nasm -o $@ $<
-	chmod +x hello
+	chmod +x Test
 
 .PHONY: clean
 clean:
-	-rm -vf hello
+	-rm -vf Test
 
 .PHONY: test
-test: hello
-	./hello
+test: Test
+	./Test
