@@ -1,8 +1,9 @@
-FROM ubuntu:latest
+FROM scratch
 COPY Test /
 RUN chown root:root /Test
 RUN chmod -R 777 /Test
 ##ENTRYPOINT ["/bin/bash"]
-RUN cat Test
+CMD ["/Test"]
+##RUN cat Test
 ##CMD cat Test
 ##RUN cat /Test
