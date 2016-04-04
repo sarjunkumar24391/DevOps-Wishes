@@ -2,9 +2,9 @@ FROM debian:jessie
 
 RUN apt-get update && apt-get install -y make nasm && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /usr/src/hello
-COPY . /usr/src/hello
+WORKDIR /usr/src/Test
+COPY . /usr/src/Test
 
-RUN make clean hello test
+RUN make clean Test test
 
-CMD ["./hello"]
+CMD ["./Test"]
